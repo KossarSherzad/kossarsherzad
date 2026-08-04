@@ -662,6 +662,68 @@ footer {
 .footer-links a {
 
     margin-right:20px;
+}
+
+
+/* Article improvements */
+
+
+.article-subtitle {
+
+    color:#54595d;
+
+    font-size:16px;
 
 }
-```
+
+
+
+.article-info {
+
+    font-size:14px;
+
+    color:#54595d;
+
+}
+
+
+
+
+
+.section-title {
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+
+
+.section-title span {
+
+    font-size:14px;
+
+    font-weight:normal;
+
+}
+
+
+
+.section-title span:hover {
+
+    text-decoration:underline;
+
+}
+
+
+
+
+
+sup a {
+
+    font-size:12px;
+
+}
