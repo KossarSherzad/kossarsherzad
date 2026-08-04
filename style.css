@@ -1,1 +1,485 @@
+/* 
+KossarSherzad Encyclopedia Style
+*/
 
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+
+    margin: 0;
+
+    background: #f8f9fa;
+
+    color: #202122;
+
+    font-family: 
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Arial,
+    sans-serif;
+
+    line-height: 1.6;
+
+}
+
+
+
+
+header {
+
+    background: white;
+
+    border-bottom: 1px solid #a2a9b1;
+
+    padding: 20px;
+
+}
+
+
+
+
+.top {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+}
+
+
+
+.top h1 {
+
+    font-family: Georgia, serif;
+
+    font-size: 38px;
+
+    margin: 0;
+
+    color: #000;
+
+}
+
+
+
+.top p {
+
+    margin-top: 5px;
+
+    color: #54595d;
+
+}
+
+
+
+
+nav {
+
+    max-width:1200px;
+
+    margin:20px auto 0;
+
+}
+
+
+
+nav a {
+
+    color:#0645ad;
+
+    text-decoration:none;
+
+    margin-right:20px;
+
+}
+
+
+
+nav a:hover {
+
+    text-decoration:underline;
+
+}
+
+
+
+
+
+
+main {
+
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:30px;
+
+}
+
+
+
+.article {
+
+    background:white;
+
+    padding:30px;
+
+    border:1px solid #a2a9b1;
+
+}
+
+
+
+
+
+
+h2 {
+
+    font-family:Georgia, serif;
+
+    font-size:30px;
+
+    border-bottom:1px solid #a2a9b1;
+
+    padding-bottom:5px;
+
+    margin-top:40px;
+
+}
+
+
+
+
+h3 {
+
+    font-family:Georgia,serif;
+
+}
+
+
+
+
+
+p {
+
+    font-size:16px;
+
+}
+
+
+
+
+
+/* Infobox */
+
+
+.infobox {
+
+
+    float:right;
+
+    width:320px;
+
+    margin:0 0 20px 30px;
+
+    background:#f8f9fa;
+
+    border:1px solid #a2a9b1;
+
+
+}
+
+
+
+.infobox img {
+
+
+    width:100%;
+
+    display:block;
+
+}
+
+
+
+.infobox table {
+
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+
+
+.infobox th {
+
+
+    background:#eaecf0;
+
+    font-size:20px;
+
+    padding:10px;
+
+}
+
+
+
+.infobox td {
+
+
+    border-top:1px solid #eaecf0;
+
+    padding:8px;
+
+    vertical-align:top;
+
+}
+
+
+
+.infobox td:first-child {
+
+
+    font-weight:bold;
+
+    width:40%;
+
+}
+
+
+
+
+
+
+/* Contents */
+
+
+.contents {
+
+
+    background:#f8f9fa;
+
+    border:1px solid #a2a9b1;
+
+    padding:15px;
+
+    width:350px;
+
+}
+
+
+
+.contents li {
+
+
+    margin:5px;
+
+}
+
+
+
+
+
+
+/* Projects */
+
+
+.project {
+
+
+    border:1px solid #a2a9b1;
+
+    background:#fff;
+
+    padding:20px;
+
+    margin:20px 0;
+
+}
+
+
+
+.project h3 {
+
+
+    color:#0645ad;
+
+}
+
+
+
+
+
+
+/* Skills */
+
+
+.skills {
+
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+
+    padding:0;
+
+}
+
+
+
+.skills li {
+
+
+    list-style:none;
+
+    background:#eaecf0;
+
+    border:1px solid #a2a9b1;
+
+    padding:8px 15px;
+
+    border-radius:3px;
+
+}
+
+
+
+
+
+
+/* Timeline */
+
+
+.timeline {
+
+
+    border-left:4px solid #a2a9b1;
+
+    padding-left:20px;
+
+}
+
+
+
+.event {
+
+
+    margin-bottom:25px;
+
+}
+
+
+
+.event h3 {
+
+
+    color:#0645ad;
+
+}
+
+
+
+
+
+
+/* Quote */
+
+
+.quote {
+
+
+    background:#f8f9fa;
+
+    border-left:5px solid #0645ad;
+
+    padding:20px;
+
+    font-size:20px;
+
+    font-style:italic;
+
+}
+
+
+
+
+
+
+
+footer {
+
+
+    text-align:center;
+
+    padding:30px;
+
+    color:#54595d;
+
+    background:white;
+
+    border-top:1px solid #a2a9b1;
+
+}
+
+
+
+
+
+
+/* Mobile */
+
+
+@media(max-width:800px){
+
+
+    main {
+
+        padding:10px;
+
+    }
+
+
+
+    .article {
+
+        padding:15px;
+
+    }
+
+
+
+    .infobox {
+
+
+        float:none;
+
+        width:100%;
+
+        margin:20px 0;
+
+
+    }
+
+
+
+    nav a {
+
+
+        display:block;
+
+        margin:10px 0;
+
+    }
+
+
+}
