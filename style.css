@@ -601,4 +601,67 @@ footer {
 
 
 }
+
+/* Sidebar improvements */
+
+
+.sidebar-section {
+
+    margin-bottom:30px;
+
+}
+
+
+.sidebar-section h3 {
+
+    font-size:16px;
+
+    font-weight:normal;
+
+    border-bottom:1px solid #a2a9b1;
+
+    padding-bottom:5px;
+
+}
+
+
+
+.sidebar-section ul {
+
+    margin-top:10px;
+
+}
+
+
+
+
+
+/* Footer */
+
+
+footer {
+
+    max-width:1300px;
+
+    margin:auto;
+
+    border-top:1px solid #a2a9b1;
+
+    padding:30px;
+
+    background:#f8f9fa;
+
+    color:#54595d;
+
+    font-size:14px;
+
+}
+
+
+
+.footer-links a {
+
+    margin-right:20px;
+
+}
 ```
