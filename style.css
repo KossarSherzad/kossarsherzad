@@ -727,3 +727,32 @@ sup a {
     font-size:12px;
 
 }
+
+
+
+.history-table {
+
+    border-collapse:collapse;
+
+    width:100%;
+
+}
+
+
+.history-table th {
+
+    background:#eaecf0;
+
+}
+
+
+.history-table td,
+.history-table th {
+
+    border:1px solid #a2a9b1;
+
+    padding:10px;
+
+    text-align:left;
+
+}
